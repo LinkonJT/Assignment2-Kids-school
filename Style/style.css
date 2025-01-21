@@ -157,47 +157,66 @@ header {
 font-size: 2.88rem;
 font-weight: bold;
 text-align: center;
+margin-bottom: 80px;
 }
+
+
 .curriculum-list{
+  /* border: 1px solid green; */
+  border: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 26px;
-  border: 1px solid green;
-  /* justify-content: space-between; */
-  margin: 80px 140px;
-  min-width: 1160px;
-  /* min-height: 482px; */
-  /* gap: 28px; */
-  
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 28px;
+  width: 1160px;
+  margin: 0 auto;
+
 }
-.lin-bg{
-  background-image: linear-gradient(#DEF5FF);
-}
+
 .kinder img{
   width: 137px;
   height: 137px;
-  /* margin: 53px 115px 32px; */
-
+  margin: 53px 115px 32px;
 }
+
+.curri-head{
+  font-size: 1.57rem;
+  font-weight: bold;
+  margin-bottom: 34px;
+}
+
 .kinder{
-  /* background-color: rgba(222, 245, 255, 1); */
+  
+  border-radius: 19px;
   flex-direction: column;
   /* align-items: center; */
-  /* justify-content: center; */
+  justify-content: center;
+  align-content: center;
   text-align: center;
   width: 368px;
-  
-  /* margin: 34px 41px; */
-  /* height: 482px; */
-  /* background-image: linear-gradient (#DEF5FF); */
-  border: 1px solid red;
-  
 }
+
+
+
+.para-font{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 1);
+  margin-bottom: 34px;
+}
+
+.read-kinder{
+  font-size: 1rem;
+  color: rgba(100, 200, 255, 1);
+  text-decoration: none;
+}
+
 
 
 .elementary img{
   width: 142px;
   height: 142px;
+  margin: 53px 114px 32px;
+
 }
 
 .elementary {
@@ -206,12 +225,19 @@ text-align: center;
   justify-content: space-around;
   text-align: center;
   width: 368px;
-  border: 1px solid peru;
+  /* border: 1px solid peru; */
+}
+
+.read-elem{
+  font-size: 1rem;
+  color: rgba(240, 170, 0, 1);
+  text-decoration: none;
 }
 
 .middle img{
   width: 137px;
   height: 137px;
+  margin: 53px 114px 32px;
 }
 
 .middle{
@@ -220,10 +246,14 @@ text-align: center;
   justify-content: space-evenly;
   text-align: center;
   width: 368px;
-  border: 1px solid violet; 
+  /* border: 1px solid violet;  */
 }
 
-
+.read-middle{
+  font-size: 1rem;
+ color: rgba(135, 0, 255, 1);
+  text-decoration: none;
+}
 
 
 
