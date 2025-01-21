@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* ############## HEADER Styles ########## */
+header{
+    /* background-color: aqua; */
+    padding: 20px 140px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.disFlex{
+    display: flex;
+}
+
+.head-container{
+    /* margin: 0px 140px; */
+    /* border: 1px solid red; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 202px;
+    min-height: 62px;
+}
+
+.school{
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+.top-logo{
+    justify-content: center;
+    /* border: 2px yellow solid; */
+}
+
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    /* border: 1px solid rgb(0, 255, 34); */
+    min-width: 387px;
+    min-height: 30px;
+}
+
+.home{
+    color: #FEA301;
+}
+
+.about{
+    color: #01ACFD;
+}
+
+.facilities{
+    color: rgba(5, 212, 223, 1)
+
+}
+
+.admission{
+    color: rgba(93, 88, 239, 1);
+}
+
+
+.btn-contact{
+    background-color: #FEA301;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    opacity: 100%;
+    width: 197px;
+    height: 50px;
+    border: 0;
+    /* border: 2px rebeccapurple solid; */
+}
