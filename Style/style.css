@@ -187,14 +187,12 @@ margin-bottom: 80px;
 .kinder{
   
   border-radius: 19px;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
-  align-content: center;
   text-align: center;
   width: 368px;
-}
+  background-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+  padding: 20px;
 
+}
 
 
 .para-font{
@@ -206,6 +204,7 @@ margin-bottom: 80px;
 
 .read-kinder{
   font-size: 1rem;
+  font-weight: bold;
   color: rgba(100, 200, 255, 1);
   text-decoration: none;
 }
@@ -220,18 +219,20 @@ margin-bottom: 80px;
 }
 
 .elementary {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
   width: 368px;
+  border-radius: 19px;
+  background-image: linear-gradient(to bottom, #fff4dc, #ffffff);
+  padding: 20px;
   /* border: 1px solid peru; */
 }
 
 .read-elem{
   font-size: 1rem;
+  font-weight: bold;
   color: rgba(240, 170, 0, 1);
   text-decoration: none;
+
 }
 
 .middle img{
@@ -241,16 +242,17 @@ margin-bottom: 80px;
 }
 
 .middle{
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
   text-align: center;
   width: 368px;
+  border-radius: 19px;
+  background-image: linear-gradient(to bottom, #F2E8FF, #ffffff);
+  padding: 20px;
   /* border: 1px solid violet;  */
 }
 
 .read-middle{
   font-size: 1rem;
+  font-weight: bold;
  color: rgba(135, 0, 255, 1);
   text-decoration: none;
 }
