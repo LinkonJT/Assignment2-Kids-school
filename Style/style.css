@@ -85,6 +85,7 @@ header{
     width: 197px;
     height: 50px;
     border: 0;
+    padding: 10px 10px;
     /* border: 2px rebeccapurple solid; */
 }
 
@@ -92,9 +93,87 @@ header{
     display: none;
 }
 
+
+
+/* ####### BANNER #######*/
+
+.banner-container{
+    gap: 50px;
+    min-width: 1159px;
+    /* height: 575px; */
+    margin: 0 141px;
+    border: 1px dotted green;
+}
+
+.banner-info{
+    margin: 122px auto;
+    width: 640px;
+    /* height: 331px; */
+    border: 0.5px solid tomato;
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    width: 640px;
+    margin-bottom: 24px;
+    word-wrap: break-word;
+    border: 1px solid blue;
+    
+
+}
+.Emp{
+    color: #FEA301;
+}
+.tv{
+    color: #01ACFD;
+}
+
+.banner-subtittle{
+    font-size: 1.25rem;
+}
+
+.btn-enroll{
+    background-color: #111111;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    opacity: 100%;
+    width: 197px;
+    height: 50px;
+    margin-top: 24px;
+    border: 0;
+    padding: 10px 10px;
+  
+}
+
+
+.hero-kid{
+    width: 469px;
+    height: auto;
+    /* border: 1px solid purple; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ########## RESPONSIVE MEDIA QUERY ########  */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 391px){
     
         /* Header adjustments */
         header {
@@ -124,5 +203,49 @@ header{
             max-width: 46px;
             max-height: 46px;
         }
+
+        .banner-container{
+            flex-direction: column-reverse;
+            gap: 20px;
+            min-width: 357px;
+            height: auto;
+            margin: 0 auto;
+            border: 1px dotted green;
+        }
+        .hero-kid{
+            width: 337px;
+            height: 413px;
+            margin: 20px 11px auto;
+            border: 1px red solid;
+            
+        }
+
+
+        .banner-info{
+            width: 357px;
+            height: 252px;
+            margin: 20px 11px;
+            text-align: center;
+            object-fit: fill;
+        }
+
+        .banner-title{
+            font-size: 2rem;
+        }
+
+        .banner-subtittle{
+            font-size: 0.875rem;
+        }
+
+        .btn-enroll{
+            font-weight: 600;
+            border-radius: 8px;
+            opacity: 100%;
+            width: 131px;
+            height: 42px;
+            padding: 10px 10px;
+          
+        }
+        
     }
 
