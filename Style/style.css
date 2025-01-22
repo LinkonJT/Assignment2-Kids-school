@@ -18,8 +18,9 @@
 header {
   /* background-color: aqua; */
   padding: 20px 140px;
+  max-width: 1440px;
   margin: 0 auto;
-  width: 100%;
+  
 }
 
 .disFlex {
@@ -90,13 +91,20 @@ header {
 
 /* #######  02-BANNER #######*/
 
-.banner-container {
+/* .banner-container {
   gap: 50px;
   min-width: 1159px;
-  /* height: 575px; */
   margin: 0 141px;
-  /* border: 1px dotted green; */
+
+} */
+
+.banner-container {
+  gap: 50px;
+  max-width: 1159px;
+  margin: 0 auto;
+
 }
+
 
 .banner-info {
   margin: 122px auto;
@@ -147,10 +155,12 @@ header {
 /* <!-- ########### 03-Standard Curriculum ########## --> */
 
 .curiculum-section{
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   background-image: url(../assets/bg.png);
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .curri-title{
@@ -162,7 +172,7 @@ margin-bottom: 80px;
 
 
 .curriculum-list{
-  /* border: 1px solid green; */
+  border: 1px solid green;
   border: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -192,7 +202,6 @@ margin-bottom: 80px;
   background-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
   padding: 20px;
   box-shadow: 20px 0px 28px rgba(0, 0, 0, 0.05);
-
 }
 
 
@@ -260,6 +269,39 @@ margin-bottom: 80px;
   text-decoration: none;
 }
 
+.arrow-icons{
+/* border: #01acfd 1px solid; */
+justify-content: center;
+gap: 26px;
+margin-top: 80px;
+max-width: 1440px;
+
+
+}
+
+.btn{
+  border: none;
+  background-color: #fea301;
+  border-radius: 50%;
+  color: #DEF5FF;
+  width: 130px;
+  
+}
+.prev{
+margin: 60px 60px;
+font-size: 20px;
+}
+
+
+.next{
+  margin: 60px 60px;
+  font-size: 20px;
+}
+ 
+.btn:hover{
+  background-color: green;
+  color:#01acfd;
+}
 
 
 /* ########## RESPONSIVE MEDIA QUERY ########  */
