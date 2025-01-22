@@ -171,7 +171,6 @@ text-align: center;
 margin-bottom: 80px;
 }
 
-
 .curriculum-list{
   /* border: 1px solid green; */
   border: none;
@@ -395,7 +394,6 @@ margin: 0 auto;
 
 footer{
   border: 0.5px solid #01acfd;
- 
   max-width: 1440px;
   background: #01acfd;
   margin: 0 auto;
@@ -439,6 +437,7 @@ footer{
 
 .foot-nav-list{
   flex-direction: column;
+  font-weight: 500;
   list-style: none;
   line-height: 40px;
 }
@@ -466,22 +465,18 @@ footer{
 
 /* ########## RESPONSIVE MEDIA QUERY ########  */
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 392px) {
  /* ############## 01-HEADER Adjustment ########## */
   header {
     max-width: 389px;
     padding: 12px 16px;
     border: 0.5px solid #fea301;
-    
-  
   }
-
   .head-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    
   }
 
   nav,
@@ -563,29 +558,116 @@ footer{
   
 }
 
-
-
   .arrow-icons , .btn, .prev, .next, .btn:hover{
-    display: hide;
+    display: none;
   }
+
 
   
   /* <!-- ############### 04-Our-Stories Adjustments ############### --> */
 
-/* .our-stories{
-  max-width: 391px;
-  background-image: linear-gradient(to top, #ffe6bc, #f7f3f3);
+.our-stories{
+padding: 40px 0px;
+max-width: 391px;
 
+}
+.img-1{
+  width:  173px;
+  height: 105px;
+  /* display: none; */
+}
+.story-1  { 
+  display: none;
+}
+
+.story-2, .story-3, .story-4, .story-5 {
+  width: 174px;
+  /* height: 180px; */
 }
 
 .story-list-container{
-  width: 358px;
-  grid-template-columns: repeat(1, 1fr);
+
+  width: 359px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
 
 }
 
-
-.story-1{
-  display: hide;
+.story2-head,
+.story3-head,
+.story4-head,
+.story5-head{
+  padding: 22px 23px;
+  font-size: 9px;
 }
-} */
+
+.btn-view-all{
+  width: 134px;
+  height: 30px;
+  margin: 20px 128px 25px;
+  padding: 5px 5px;
+}
+
+
+/* ############### 05- Footer ADjustment ############### */
+
+footer{
+  max-width: 391px;
+  height:642px;
+  padding-left: 20px;
+  /* height: auto; */
+}
+
+.footer-items {
+  flex-direction: column;
+  align-items: start;
+  width:390px;
+  margin: 0 auto;
+}
+
+.kids-edu-logo img{
+  width: 69px;
+  height: 69px;
+}
+
+.kids-edu-logo{
+  margin-top: 30px;
+}
+
+.h2-foot-head{
+  font-size: 2.1rem;
+  width: 171px;
+  height: 66px;
+  line-height: 30px;
+}
+
+.foot-para{
+  width: 355px;
+  height: 80px;
+  margin-top: 22px;
+}
+
+
+.foot-nav-list { 
+  flex-direction: column;
+  font-weight: 500;
+  /* list-style: none; */
+  /* line-height: 40px; */
+}
+.foot-about{
+  /* display: inline; */
+  font-size: 20px;
+  align-items: start;
+  flex-direction: column;
+  /* gap: 20px;} */
+}
+
+.h2-about{
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.h2-icon-list{
+  margin-top: 32px;
+
+}
